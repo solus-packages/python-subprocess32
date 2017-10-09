@@ -1,0 +1,14 @@
+name       : python-subprocess32
+version    : 3.2.7
+release    : 1
+source     :
+    - https://github.com/google/python-subprocess32/archive/3.2.7.tar.gz : 079c02ebe338ee0197109dbe2fcf6fddef776bacdf92fb75d83333845ad9b416
+license    : Python-2.0
+component  : programming.python
+summary    : A backport of the Python 3 subprocess module for use on Python 2.
+description: |
+    A backport of the Python 3 subprocess module for use on Python 2.
+build      : |
+    %python_setup
+install    : |
+    %python_install
